@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	width: 90%;
+	margin: 0px auto;
+	background-color: #f8f9ff;
+
+}
+	body *{
+		vertical-align: top;
+	}
+	aside{
+		padding: 5vh 2vw;
+		display: inline-block;
+		width: 15%;
+		height: 100vh;
+		background-color: #081a53;
+		position: fixed;
+	}
+		aside a{
+			display: block;
+			text-decoration: none;
+			padding: 3px 0px;
+		}
+		aside a:link, a:visited{
+			color: #ffffff;
+		}
+		aside a:hover{
+			text-decoration: underline;
+		}
+	main{
+		display: inline-block;
+		width: 83%;
+		padding: 5%;
+		margin-left: 15%;
+	}
+		main h1{
+			margin-bottom: 50px;
+		}
+		main div{
+			padding: 10px 15px;
+			background-color:#ffffff;
+			border-radius:10px;
+			margin: 10px 0px;
+			box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;}
+		main div *{
+			margin: 5px 0px;
+
+		}
+		main div h2{
+			color:#007efa;
+		}
+		main div .btn{
+			background-color:#daedff;
+			padding: 3px 10px;
+			border-radius: 5px;
+			border: 2px solid #007efa;
+		}
+		main div button:hover{
+			background-color:#abd2f7;
+		}
+		.target{
+			background-color:#daedff;
+			padding: 5px;
+		}
+		.target-show, .target-slideDown, .target-fadeIn{
+			display: none;
+		}
+		.addClass-output{
+			border: 2px solid #007efa;
+		}
+		#before button, #after button{
+			display: block;
+		}
